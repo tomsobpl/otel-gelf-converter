@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/tomsobpl/otel-gelf-converter/internal/helpers"
+	"github.com/tomsobpl/otel-gelf-converter/pkg/helpers"
 	"go.opentelemetry.io/collector/pdata/plog"
 	"gopkg.in/Graylog2/go-gelf.v2/gelf"
 )
@@ -10,7 +10,6 @@ type Message struct {
 	rawmsg *gelf.Message
 }
 
-// NewMessage creates a new message
 func NewMessage() *Message {
 	return &Message{rawmsg: &gelf.Message{
 		Version:  "1.1",

@@ -1,8 +1,8 @@
 package pkg
 
 import (
-	"github.com/tomsobpl/otel-gelf-converter/internal/factory"
-	"github.com/tomsobpl/otel-gelf-converter/internal/message"
+	"github.com/tomsobpl/otel-gelf-converter/pkg/factory"
+	"github.com/tomsobpl/otel-gelf-converter/pkg/message"
 	"go.uber.org/zap"
 )
 

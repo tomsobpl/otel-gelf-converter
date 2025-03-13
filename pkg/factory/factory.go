@@ -1,8 +1,8 @@
 package factory
 
 import (
-	"github.com/tomsobpl/otel-gelf-converter/internal/helpers"
-	"github.com/tomsobpl/otel-gelf-converter/internal/message"
+	"github.com/tomsobpl/otel-gelf-converter/pkg/helpers"
+	"github.com/tomsobpl/otel-gelf-converter/pkg/message"
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 )
